@@ -1,0 +1,33 @@
+.logo{
+    height:250px;
+
+    margin:auto;
+    padding:auto
+}
+.image1{
+    margin-left:-2%;
+}
+.description{
+    margin-top:35vh;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.button{
+    height:50px;
+    width:150px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(255, 27, 27);
+    border: none;
+    justify-content: center;
+    text-align: center;
+    box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    -moz-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+}
+.proceed{
+    justify-content: center;
+    text-align: center;
+}
