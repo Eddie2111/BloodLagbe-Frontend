@@ -12,10 +12,16 @@
     justify-content: center;
     text-align: center;
     margin-bottom: 90px;
+    font-weight: 400;
+}
+.descriptionText{
+    font-weight: 600;
+    font-size:19px;
 }
 .button{
     height:50px;
-    width:150px;
+    width:180px;
+    margin-bottom:120px;
     border-radius: 10px;
     text-decoration: none;
     color:white;
@@ -26,8 +32,182 @@
     box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
     -webkit-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
     -moz-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    transition: 0.3s ease-in-out;
+}
+.button:hover{
+    height:50px;
+    width:180px;
+    margin-bottom:120px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    background-color: rgb(37, 225, 109);
+    border: none;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 8px 22px 25px -12px rgba(24, 255, 178, 0.694);
+    -webkit-box-shadow: 8px 22px 25px -12px rgba(24, 255, 178, 0.694);
+    -moz-box-shadow: 8px 22px 25px -12px rgba(24, 255, 178, 0.694);
+    transition: 0.3s ease-in-out;
 }
 .proceed{
     justify-content: center;
     text-align: center;
+}
+.ulStyle{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    background-color: rgb(250, 32, 32);
+}
+.navLogo{
+    margin-left:-45px;
+    
+}
+.image2{
+
+    padding:-10px;
+}
+.colorWhite{
+    color:white;
+    float:right;
+    list-style:none;
+    
+}
+.atx{
+    list-style: none;
+    height:0px;
+    width:0px;
+}
+.DashboardContainer{
+    margin:auto;
+    width:355px;
+}
+.registerCenter{
+    margin:auto;
+}
+.buttonRegister{
+    height:50px;
+    width:250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(255, 27, 27);
+    border: none;
+    justify-content: center;
+    text-align: center;
+    box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    -moz-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    transition: 0.3s ease-in-out;
+}
+.buttonRegister:hover{
+    height:50px;
+    width:180px;
+    width:250px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    background-color: rgb(37, 225, 109);
+    border: none;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 8px 22px 25px -12px rgba(24, 255, 178, 0.694);
+    -webkit-box-shadow: 8px 22px 25px -12px rgba(24, 255, 178, 0.694);
+    -moz-box-shadow: 8px 22px 25px -12px rgba(24, 255, 178, 0.694);
+    transition: 0.3s ease-in-out;
+}
+.bordering{
+    border:1px solid black;
+    height:120px;
+    border-radius: 10px;
+    width:180px;
+    margin:30px;
+}
+.buttonIcons{
+    font-size: 30px;
+    color:red;
+}
+.buttonTexts{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:-30px;
+    font-size:12px;
+}
+.form-field {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    color: var(--input-color);
+    border: 1px solid var(--input-border);
+    background: var(--input-background);
+    transition: border .3s ease;
+    &::placeholder {
+        color: var(--input-placeholder);
+    }
+    &:focus {
+        outline: none;
+        border-color: var(--input-border-focus);
+    }
+}
+
+.form-group {
+    position: relative;
+    display: flex;
+    width: 100%;
+    & > span,
+    .form-field {
+        white-space: nowrap;
+        display: block;
+        &:not(:first-child):not(:last-child) {
+            border-radius: 0;
+        }
+        &:first-child {
+            border-radius: 6px 0 0 6px;
+        }
+        &:last-child {
+            border-radius: 0 6px 6px 0;
+        }
+        &:not(:first-child) {
+            margin-left: -1px;
+        }
+    }
+    .form-field {
+        position: relative;
+        z-index: 1;
+        flex: 1 1 auto;
+        width: 1%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    & > span {
+        text-align: center;
+        padding: 8px 12px;
+        font-size: 14px;
+        line-height: 25px;
+        color: var(--group-color);
+        background: var(--group-background);
+        border: 1px solid var(--group-border);
+        transition: background .3s ease, border .3s ease, color .3s ease;
+    }
+    &:focus-within {
+        & > span {
+            color: var(--group-color-focus);
+            background: var(--group-background-focus);
+            border-color: var(--group-border-focus);
+        }
+    }
 }

@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 //import './index.css';
 import App from './pages/App';
 import Home from './pages/Home';
+import Register from './pages/Register';
+import UnderConstruction from './pages/UnderConstruction';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
@@ -14,6 +16,8 @@ root.render(
     <Routes>
     <Route path="/" element={<App />} />
     <Route path="/home" element={<Home />} />
+    <Route path="/register" element={<Register />} />
+    <Route path="*" element={<UnderConstruction/>} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

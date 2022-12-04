@@ -1,5 +1,5 @@
 import React,{ useState, useEffect } from "react";
-import logo from '../../logo.svg';
+import logo from '../../logoWhite.svg';
 import WidgetsIcon from '@mui/icons-material/Widgets';
 import { useNavigate } from 'react-router-dom';
 function NavbarWithSidebar() {
@@ -13,8 +13,11 @@ function NavbarWithSidebar() {
     return (
         <>
         <div className="navbar">
-            <a href="/"><img className="image1" src={logo} alt = "logo" height="30%" width="30%"/></a>
-
+            <ul className="ulStyle">
+            <li className="navLogo"><a href="/"><img className="image2" src={logo} alt = "logo" height="80px" width="125px"/></a></li>
+            </ul>
+            <li className="colorWhite"><WidgetsIcon/>&nbsp;<br/></li>
+            
         </div>
         </>
     );

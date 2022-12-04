@@ -16,7 +16,8 @@ function App() {
             </div>
 
             <div className="description">
-                <p>Streamlining Searching and Finding Donors </p><p>With Targeted Mapped and Optimized Searching.</p>
+                <p className="descriptionText">Streamlining Blood Donation with Targeted and Optimized Searching </p>
+                <p className="descriptionText">With Targeted Mapped and Optimized Searching.</p>
             </div>
             <div className="proceed">
                 <a href="/home"><button className="button">Proceed</button></a>
