@@ -123,11 +123,43 @@
     transition: 0.3s ease-in-out;
 }
 .bordering{
-    border:1px solid black;
+    border:1px solid rgb(157, 157, 157);
     height:120px;
-    border-radius: 10px;
+    border-radius: 15px;
     width:180px;
     margin:30px;
+    box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    -moz-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+}
+.facts{
+    color:red;
+    font-weight:500;
+}
+.factLink{
+    text-decoration: underline;
+}
+.bordering1{
+    border:1px solid rgb(157, 157, 157);
+    height:120px;
+    border-radius: 15px;
+    width:130px;
+    margin:30px;
+    box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    -moz-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+}
+.donationBordering{
+    border:1px solid rgb(157, 157, 157);
+    height:60px;
+    border-radius: 15px;
+    width:300px;
+    margin:30px;
+    display:flex;
+    flex-direction: row;
+    box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
+    -moz-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.51);
 }
 .buttonIcons{
     font-size: 30px;
@@ -141,6 +173,19 @@
     margin-left:-30px;
     font-size:12px;
 }
+.centering{
+    text-align: center;
+    justify-content: center;
+    padding-top:15px;
+}
+.dashButtonText{
+    font-size: 18px;
+    font-weight: 500;
+}
+.linkers{
+    text-decoration: none;
+    color:black;
+}
 .form-field {
     display: block;
     width: 100%;
@@ -152,8 +197,8 @@
     border-radius: 6px;
     -webkit-appearance: none;
     color: var(--input-color);
-    border: 1px solid var(--input-border);
-    background: var(--input-background);
+    border: 1px solid #CDD9ED;
+    background:  #fff;
     transition: border .3s ease;
     &::placeholder {
         color: var(--input-placeholder);
